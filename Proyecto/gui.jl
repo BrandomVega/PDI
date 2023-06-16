@@ -36,7 +36,7 @@ function main()
     num_clases = 3
 
     img_sedeed, seeds1 = procesarImagen(img, num_semillas)
-    img_sedeed_clasified, seeds2, labelMap, colorClases= procesarImagen(img, num_clases)
+    img_sedeed_clasified, seeds2, labelMap, colorClases= procesarImagen(img_sedeed, num_clases)
     imshow(img)
     imshow(img_sedeed)
 
